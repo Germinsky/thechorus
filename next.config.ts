@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverExternalPackages: ['thread-stream', 'pino', 'pino-pretty'],
+  turbopack: {},
 };
 
 export default nextConfig;
